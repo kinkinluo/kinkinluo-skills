@@ -25,6 +25,16 @@ Options:
 
 After installation, restart Codex to load the new skills.
 
+## Install (using npx skills CLI)
+
+If your assistant supports the generic skills CLI:
+
+```bash
+npx skills add https://github.com/kinkinluo/kinkinluo-skills --skill engineering-code
+npx skills add https://github.com/kinkinluo/kinkinluo-skills --skill ml-infra
+npx skills add https://github.com/kinkinluo/kinkinluo-skills --skill model-reproduction
+```
+
 ## Layout
 
 ```
