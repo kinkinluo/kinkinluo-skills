@@ -1,10 +1,11 @@
 # kinkinluo-skills
 
-Reusable Codex skills for engineering and ML projects.
+Reusable local skills for engineering, ML, and cross-workspace coordination.
 
 ## Skills
 
 - **engineering-code** — Modular, professional code structure for long-running projects.
+- **federated-orchestration** — Coordinate work across multiple servers, repos, or disconnected workspaces through shared contracts, work items, handoffs, and patch bundles instead of pretending all code lives in one folder.
 - **ml-infra** — Config-driven ML/LLM training infrastructure with clear stable/experimental layers.
 - **model-reproduction** — Strict model reproduction workflow: engineering adapters allowed, algorithms unchanged.
 
@@ -15,6 +16,7 @@ From any machine with Codex:
 ```bash
 cd ~/.codex/skills/.system/skill-installer
 scripts/install-skill-from-github.py --repo kinkinluo/kinkinluo-skills --path skills/engineering-code
+scripts/install-skill-from-github.py --repo kinkinluo/kinkinluo-skills --path skills/federated-orchestration
 scripts/install-skill-from-github.py --repo kinkinluo/kinkinluo-skills --path skills/ml-infra
 scripts/install-skill-from-github.py --repo kinkinluo/kinkinluo-skills --path skills/model-reproduction
 ```
@@ -31,6 +33,7 @@ If your assistant supports the generic skills CLI:
 
 ```bash
 npx skills add https://github.com/kinkinluo/kinkinluo-skills --skill engineering-code
+npx skills add https://github.com/kinkinluo/kinkinluo-skills --skill federated-orchestration
 npx skills add https://github.com/kinkinluo/kinkinluo-skills --skill ml-infra
 npx skills add https://github.com/kinkinluo/kinkinluo-skills --skill model-reproduction
 ```
@@ -40,6 +43,9 @@ npx skills add https://github.com/kinkinluo/kinkinluo-skills --skill model-repro
 ```
 skills/
   engineering-code/
+    SKILL.md
+    references/
+  federated-orchestration/
     SKILL.md
     references/
   ml-infra/
