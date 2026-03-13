@@ -1,5 +1,15 @@
 # Distributed Training Patterns
 
+## Table of Contents
+1. [Core Principle](#core-principle)
+2. [Strategy Abstraction](#strategy-abstraction)
+3. [FSDP Strategy](#fsdp-strategy)
+4. [DeepSpeed Strategy](#deepspeed-strategy)
+5. [Single GPU Strategy (Development)](#single-gpu-strategy-development)
+6. [Checkpoint Utilities](#checkpoint-utilities)
+7. [Launch Scripts](#launch-scripts)
+8. [Best Practices](#best-practices)
+
 ## Core Principle
 
 **Abstract distribution strategy from training logic.**

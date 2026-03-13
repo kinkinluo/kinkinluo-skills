@@ -1,5 +1,15 @@
 # Component Registry
 
+## Table of Contents
+1. [Core Principle](#core-principle)
+2. [Registry Implementation](#registry-implementation)
+3. [Registration Pattern](#registration-pattern)
+4. [Auto-Discovery Pattern](#auto-discovery-pattern)
+5. [Usage in Training Script](#usage-in-training-script)
+6. [Nested Registry Pattern](#nested-registry-pattern)
+7. [Registry with Config Validation](#registry-with-config-validation)
+8. [Best Practices](#best-practices)
+
 ## Core Principle
 
 **Instantiate components from config strings.**

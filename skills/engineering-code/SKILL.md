@@ -1,12 +1,12 @@
 ---
 name: engineering-code
 description: |
-  Engineering-grade code development with modular architecture, clear interfaces, and professional project structure. Use this skill when: (1) Starting any new coding project, (2) Building features that may grow in complexity, (3) User requests maintainable/scalable/professional code, (4) Projects expected to span multiple conversation turns, (5) Code that needs to be readable, testable, or reusable. This skill ensures code is modular (small focused files), consistent (predictable patterns), and navigable (clear project structure) - enabling efficient long-context development.
+  Use this skill for general software engineering work where maintainable structure is the priority: starting or refactoring backend, frontend, library, CLI, or app codebases; splitting large files into focused modules; defining clear interfaces; or setting up a project that will evolve over multiple turns. Prefer it for readable, testable, reusable product code. If the task is specifically ML training infrastructure, distributed experiment systems, or strict model reproduction, use the more specialized skill instead.
 ---
 
 # Engineering Code
 
-This skill produces modular, well-structured code that remains maintainable across long conversations and complex projects.
+This skill produces modular, well-structured code for general software projects that need to stay maintainable across long conversations and repeated iteration.
 
 ## Core Principle: Modular by Default
 

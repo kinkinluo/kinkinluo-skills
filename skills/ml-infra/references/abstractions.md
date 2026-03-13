@@ -1,5 +1,13 @@
 # Abstractions and Interfaces
 
+## Table of Contents
+1. [Core Principle](#core-principle)
+2. [BaseTrainer](#basetrainer)
+3. [Algorithm-Specific Implementations](#algorithm-specific-implementations)
+4. [Data Abstractions](#data-abstractions)
+5. [Model Abstractions](#model-abstractions)
+6. [When to Use Abstractions](#when-to-use-abstractions)
+
 ## Core Principle
 
 **Stable interfaces, pluggable implementations.**

@@ -1,5 +1,12 @@
 # Configuration System
 
+## Table of Contents
+1. [Core Principle](#core-principle)
+2. [Config Inheritance Pattern](#config-inheritance-pattern)
+3. [Config Implementation](#config-implementation)
+4. [Usage Patterns](#usage-patterns)
+5. [Best Practices](#best-practices)
+
 ## Core Principle
 
 **Configuration drives experiments, not code changes.**

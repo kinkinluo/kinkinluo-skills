@@ -1,5 +1,15 @@
 # Experiment Management
 
+## Table of Contents
+1. [Core Principle](#core-principle)
+2. [Experiment Structure](#experiment-structure)
+3. [Experiment Setup](#experiment-setup)
+4. [Reproducibility](#reproducibility)
+5. [Logging](#logging)
+6. [Experiment Naming](#experiment-naming)
+7. [Analysis Tools](#analysis-tools)
+8. [Best Practices](#best-practices)
+
 ## Core Principle
 
 **Every experiment must be reproducible.**

@@ -150,6 +150,8 @@ experiments/exp001/
 
 ## References
 
+Read only the reference file that matches the current task; do not load all of them by default.
+
 - `references/templates.md` - Project templates (LLM training, vision, research)
 - `references/config-system.md` - Configuration inheritance patterns
 - `references/registry.md` - Component registry implementation
